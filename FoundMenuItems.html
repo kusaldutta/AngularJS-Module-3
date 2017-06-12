@@ -1,0 +1,6 @@
+<li ng-repeat="item in menu.menuItems">
+  Name: {{item.name}}<br/> ShortName: {{item.short_name}} <br/> Description: {{item.description}}
+  <p>
+  <button ng-click="menu.onRemove({index: $index});">Don't want!</button>
+</p>
+</li>
